@@ -1,0 +1,9 @@
+Feature type?
+├── Continuous/Numeric
+│   ├── Target = Continuous  →  Pearson Correlation (r)
+│   └── Target = Categorical →  F-test / ANOVA
+└── Categorical / Count (non-negative)
+    └── Target = Categorical →  Chi-Squared (χ²)
+
+Always run Variance Threshold FIRST — it's unsupervised (no target needed)
+Always normalize BEFORE Variance Threshold!
